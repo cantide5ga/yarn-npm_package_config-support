@@ -1,0 +1,14 @@
+{
+  "name": "yarn-npm_package_config-support",
+  "version": "1.0.0",
+  "description": "https://github.com/yarnpkg/yarn/issues/2989",
+  "main": "index.js",
+  "author": "cantide5ga",
+  "config": {
+    "foo": "bar"
+  },
+  "scripts": {
+    "demo": "echo $npm_package_config_foo"
+  },
+  "license": "MIT"
+}
